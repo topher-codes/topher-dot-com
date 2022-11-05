@@ -7,7 +7,9 @@ body {
 		Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 	font-size: 1.5rem;
 }
-
+.fullscreen {
+	height: 80vh;
+}
 nav {
 	display: flex;
 	width: 100%;
