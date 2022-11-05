@@ -16,7 +16,7 @@ nav {
 a {
 	text-decoration: none;
 	color: black;
-	padding: 5px 10px;
+	padding: 5px;
 	margin: 5px 10px;
 	border: 3px solid black;
 	font-family: monospace;
@@ -41,14 +41,22 @@ a:hover {
 	padding: 10px;
 }
 
+.card-body {
+	text-align: center;
+	padding: 10px;
+}
+
 #card-photo:hover {
-	position: relative;
-	animation: card-photo 5s ease-in;
+	background-color: #eee;
 }
 
 #card-about:hover {
 	position: relative;
 	animation: card-about 5s ease-in;
+}
+
+.footer {
+	text-align: center;
 }
 
 @keyframes card-about {
@@ -60,18 +68,6 @@ a:hover {
 	}
 	100% {
 		right: 30%;
-	}
-}
-
-@keyframes card-photo {
-	0% {
-		left: 0%;
-	}
-	10% {
-		left: 30%;
-	}
-	100% {
-		left: 30%;
 	}
 }
 

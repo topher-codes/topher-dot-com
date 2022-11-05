@@ -1,4 +1,6 @@
 import Image from 'next/image';
+import Link from 'next/link';
+import { AiFillGithub, AiFillLinkedin, AiOutlineMail } from 'react-icons/ai';
 
 export default function HomePage() {
 	return (
@@ -11,6 +13,21 @@ export default function HomePage() {
 						height="300"
 						alt="nothing"
 					/>
+				</div>
+				<div className="card-body">
+					<p>Chris Andrews</p>
+					<p>Software Engineer</p>
+					<div className="card-links">
+						<Link href="https://github.com/halcyon-dayz">
+							<AiFillGithub />
+						</Link>
+						<a href="#">
+							<AiFillLinkedin />
+						</a>
+						<a href="mailto:andrewsc33@icloud.com">
+							<AiOutlineMail />
+						</a>
+					</div>
 				</div>
 			</div>
 			<div className="card" id="card-about">
