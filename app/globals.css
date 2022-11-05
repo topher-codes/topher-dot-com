@@ -3,7 +3,8 @@
 }
 
 body {
-	font-family: Arial, Helvetica, sans-serif;
+	font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto,
+		Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 	font-size: 1.5rem;
 }
 
@@ -23,9 +24,59 @@ a {
 
 a:hover {
 	transform: translateY(10%);
+	background-color: #555;
 }
 
 .container {
 	display: flex;
+
 	justify-content: center;
+	border: 1px solid red;
+}
+
+.card {
+	margin-top: 40px;
+	border: 3px solid black;
+	border-radius: 15px;
+	padding: 10px;
+}
+
+#card-photo:hover {
+	position: relative;
+	animation: card-photo 5s ease-in;
+}
+
+#card-about:hover {
+	position: relative;
+	animation: card-about 5s ease-in;
+}
+
+@keyframes card-about {
+	0% {
+		right: 0%;
+	}
+	10% {
+		right: 30%;
+	}
+	100% {
+		right: 30%;
+	}
+}
+
+@keyframes card-photo {
+	0% {
+		left: 0%;
+	}
+	10% {
+		left: 30%;
+	}
+	100% {
+		left: 30%;
+	}
+}
+
+@media (max-width: 500px) {
+	body {
+		font-size: 1.2rem;
+	}
 }
