@@ -12,6 +12,11 @@ nav {
 	display: flex;
 	width: 100%;
 	justify-content: center;
+	background-color: #fff;
+	position: fixed;
+	height: 60px;
+	top: 0;
+	left: 0;
 }
 a {
 	text-decoration: none;
@@ -27,11 +32,16 @@ a:hover {
 	background-color: #555;
 }
 
+li {
+	padding: 10px;
+}
+
 .container {
 	display: flex;
-
+	background-color: #eee;
 	justify-content: center;
 	border: 1px solid red;
+	margin-top: 40px;
 }
 
 .card {
@@ -39,36 +49,22 @@ a:hover {
 	border: 3px solid black;
 	border-radius: 15px;
 	padding: 10px;
+	background-color: #fff;
 }
 
+.card-img {
+	text-align: center;
+}
+#card-about-stats {
+	text-align: center;
+}
 .card-body {
 	text-align: center;
 	padding: 10px;
 }
 
-#card-photo:hover {
-	background-color: #eee;
-}
-
-#card-about:hover {
-	position: relative;
-	animation: card-about 5s ease-in;
-}
-
 .footer {
 	text-align: center;
-}
-
-@keyframes card-about {
-	0% {
-		right: 0%;
-	}
-	10% {
-		right: 30%;
-	}
-	100% {
-		right: 30%;
-	}
 }
 
 @media (max-width: 500px) {

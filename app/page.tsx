@@ -30,11 +30,29 @@ export default function HomePage() {
 					</div>
 				</div>
 			</div>
-			<div className="card" id="card-about">
-				<p>Some Content</p>
+			<div className="card" id="card-about-stats">
+				<p>Stats</p>
+				<p>
+					<strong>Javascript</strong>: 5 years
+				</p>
+				<p>
+					<strong>React</strong>: 3 years
+				</p>
+				<p>
+					<strong>Typescript</strong>: 3 years
+				</p>
+				<p></p>
 			</div>
 			<div className="card" id="card-about">
-				<p>Some More Content</p>
+				<ul>
+					<li>I can build REST API</li>
+					<li>I can build 100% typesafe React apps</li>
+					<li>I use SQL backend as well as noSQL / GraphQL</li>
+					<li>I use frameworks such as NextJS</li>
+					<li>
+						Check out my <Link href="/projects">projects</Link>!
+					</li>
+				</ul>
 			</div>
 		</div>
 	);
