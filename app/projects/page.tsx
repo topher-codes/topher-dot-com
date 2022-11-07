@@ -23,7 +23,7 @@ export default function ProjectPage() {
 				</div>
 				<Link href="https://thejourney.gtsb.io">
 					<Image
-						src="https://lh3.googleusercontent.com/ZtCiFrfSMLcL5t32ro6EzuYFycmG0KRlnrdGfiIJk01S_0Wj6fg_0SCKQFe1tlLLW4awLz2sOmA2xYBtJtzzNjmqUGxsV2hh5Snwp11rVbm6W42j1OT4LrXHBlrwnjxkq1GLkvbTC44afwQDOcLUrCmB_Uamrj2yG8yaKDYQeB8XVqon8YqPykwguKrZjCuP5lMbbEsFGMUYwDh5CJlAZlg5hJBzpQreKmAel9fQkAxP8Qu7a2k_1HUksxKz1B0EouRHzNOdUcdds_ghdEbx8ScDkFOwdPka-WxK92dtb93P4fqHHwgvclZs_JholH4Ck40fjCxcrYz5Jov2WL0iNt6prA9ZVxAfZXCLrOWRbhFrpVKTaCIbE8vImxrVUyhtpiWDb7kjofNAt7ktZPGAUXWDD3WJXLBgrbRJzLguHDlIcT_irhyEgvvxggfkTsBnPFwiPbwrF2QqxryeDBT_Fvx31uDLWFkKoO-as7De1Ib9Tm3UoVp7bxeZBhS-Bt_x5jd1pMZmDhIpkKb3TjvlBaFrp5ikT6-_700ZnEYCNLHBNYwJdgb-_F7ImSlggxCGOkWkt6I_DM4tQWESf-FD96jOyR7ILqQVGDQ91lpf9aZsxapzwYeShsPzITXXEhYMAmZod-PPDqPDeV4junv9Vl0_BvtdXYWgX-SJtJJ5RF8M-E1biZHU49xmSDuAbSjD7GKBsDAlmKH_xO9jcwSNfsSFaRD8Mp-tqE4mnoMMeFBD7t1j2c6K3Ff0dC2i6mYqRrIF6oyNzf4Lf8rTxxWPaXRnxWqUHzwhO4TsXwrX1IgCTSGgBJ3FNkotBWaG-RGcqsU-eOixW-JrvekexlejMf0cZb0ot8kCB-t0EPA6u1bwHSLmul4pMWGFkpmL_DXJJAGPY212nnAXGIt_TMfbpwsJ-dzugCnyzrWZ-WI=w2520-h1514-no?authuser=0"
+						src="https://lh3.googleusercontent.com/pw/AL9nZEXYhzeXArZkMpf29voueVPoSyTnEU41GfeogDJ4g4jYH2aDKLZ-sYFxhm2Oa00aJKz7cxZSiC3jB1UOcugKJuVaQfxHgszYmMfcLTfdCTzUvJe5qEvV7cvl0lheSL5_1Svwqq_OTm0KCj6KM4n-wsg=w2454-h1476-no?authuser=0"
 						alt=""
 						width="600"
 						height="400"
@@ -37,7 +37,7 @@ export default function ProjectPage() {
 				</div>
 				<Link href="#">
 					<Image
-						src="https://lh3.googleusercontent.com/eCOu34tG8mDbuqY_Es0JASszezGBUF9of-0XtXimseZPtLeE6fas8b-XWKp4tC2XyX0qvz_UJfDYyHl88ORToPNwZlaRiDAXVLABY9z-1hHUwNFwCblLse5dBvVcJGdsTYvAXdgB8HmztmbavWaiesPNIaV-l6O2lz3igU7K0NMDIKXZL8HOMqnQKBZFJT66ItSgqRmzOJWgRu9JYyyKKPZDTPptw3769SEtbYuHLW9A-2LRAME9VPFhCy4WztYORpR4YiPxovFVtTLJw3vFUrR_LYBQUgKZfxg7STd27AvXwgqIzEVR5esHt3n3AtW7MjLvUzU9SY77WS5Yp3-26mSa4UKT12dL0cErwrJhCepMmOaPVjaJFF4ZloYq5P6LKJzH8Mjji7eqPv6bl_3Rc5Nb4fmMa_PBUXGCMbR-vOqNlWlyv7G8Bvl7dBC1em-C57-U4NcHhZiOxpQuqC985CcyaZMYeHH3ANd8OrWPD0j4xsy6FMqCB7ezMM9DwLPUw2F2AqGo5OT9_D3ZqWpSFAbpw_ctMySZ5zu28IL-IJY73IOFjOw8YeTe3FSiBjPZljBdXp_Er_tr8jSGNzxRfOrmAHQmbhzwYcLAKHybeZHqYqgRES_g9M6Zd8k7yYPaIqSl_HRqyxJqF0HtxSj-49aEaQ4dEi5lYPvCYG-vvVDnMrhfmIGDK9Al8_OkhUOYGhtINtSlJ9uCGENLgVlXqLvG5lqBFJxwiuBC3fX_Zk_ZK94YhdRFohnu8xkG34pjaFImqYEBIr0d1a-mYXol1cp8MXOSSVxVW64vVyZLOquqtUoUQgfHq6XBm22Z0SNSj6p3jziWPLoPSkdWzzbGR1KoINOEraT5fN4TwsT9Z5s6HJg0PftUdweXV3XU9VBKiHDJF8jQ9nr0BMYAFtj8G9XnKh3dYLRYjAHlhEE=w2252-h1440-no?authuser=0"
+						src="https://lh3.googleusercontent.com/pw/AL9nZEUbFgYSwTx9y16U6S1JyP7VgKcskMtyzNmMVmEtToMw9R7ezGUwKe63-TkI7sCzB6jIPCG68U5wb9Q7_X4CcI_uQlgWZ8MgoIALaE3wcffYvMpGd4tpUXya4TYnDb84mpL_R0L_c-uKc-JEtp0iQeg=w2252-h1440-no?authuser=0"
 						alt=""
 						width="600"
 						height="400"
