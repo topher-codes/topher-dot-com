@@ -3,9 +3,16 @@ export default function ContactPage() {
 		<div className="fullscreen">
 			<h1>Contact</h1>
 			<div className="card">
-				<p>Phone</p>
-				<p>Email</p>
-				<p>Social</p>
+				<form
+					action="https://formsubmit.co/andrewsc33@icloud.com"
+					method="POST"
+					className="form"
+				>
+					<input type="text" name="name" placeholder="Name" required />
+					<input type="email" name="email" placeholder="Email" required />
+					<input type="text" name="message" placeholder="Message" required />
+					<button type="submit">Send</button>
+				</form>
 			</div>
 		</div>
 	);
