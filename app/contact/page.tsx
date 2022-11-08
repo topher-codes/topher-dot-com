@@ -4,7 +4,7 @@ export default function ContactPage() {
 			<h1>Contact</h1>
 			<div className="card">
 				<form
-					action="https://formsubmit.co/andrewsc33@icloud.com"
+					action="https://formsubmit.co/b353fef83470be4f1a87d1d547345d77"
 					method="POST"
 					className="form"
 				>
