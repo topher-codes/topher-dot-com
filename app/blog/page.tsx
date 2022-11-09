@@ -1,5 +1,7 @@
 'use client';
 
+import Link from 'next/link';
+import { useState } from 'react';
 import { Posts } from './posts';
 
 export default function BlogPage() {
@@ -7,14 +9,28 @@ export default function BlogPage() {
 	function log() {
 		console.log(posts);
 	}
+	const [input, setInput] = useState('eqfg');
 
 	return (
 		<div>
 			<h1>Blogg</h1>
 			<div className="blog-list">
 				<button onClick={log}>Log</button>
-				<select name="select" id="select"></select>
 			</div>
+			<form>
+				<input
+					type="text"
+					name="input"
+					id="input"
+					value={input}
+					onChange={(e) => setInput(e.currentTarget.value)}
+				/>
+				<button>
+					<Link key={input} href={`/blog/${input}`}>
+						Go
+					</Link>
+				</button>
+			</form>
 		</div>
 	);
 }
