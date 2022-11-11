@@ -1,7 +1,10 @@
+import { Posts } from '../posts';
+
 export default function PostsPage({ params }: any) {
+	const posts = Posts;
 	return (
 		<div>
-			<h1>Hello! {params.id}</h1>
+			<h1>{posts[params.id].title}</h1>
 		</div>
 	);
 }

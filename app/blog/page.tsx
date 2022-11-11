@@ -5,17 +5,16 @@ import { useState } from 'react';
 import { Posts } from './posts';
 
 export default function BlogPage() {
-	const posts = Posts;
-	function log() {
-		console.log(posts);
-	}
 	const [input, setInput] = useState('eqfg');
+	const posts = Posts;
 
 	return (
 		<div>
 			<h1>Blogg</h1>
 			<div className="blog-list">
-				<button onClick={log}>Log</button>
+				{posts?.map((post) => {
+					return <BlogPost key={post.id} note={post} />;
+				})}
 			</div>
 			<form>
 				<input
@@ -35,14 +34,45 @@ export default function BlogPage() {
 	);
 }
 
-// function BlogPosts({ post }: any) {
-// 	const { id, title, description, date } = post || {};
+function BlogPost({ note }: any) {
+	const { id, title, description, date } = note || {};
+	return (
+		<div>
+			<div>
+				<Link href={`/blog/${id}`}>
+					<h2>{title}</h2>{' '}
+				</Link>
+				<h6>{date}</h6>
+				<h4>{description}</h4>
+			</div>
+		</div>
+	);
+}
+
+// const techBar = [
+// 	{
+// 		id: 0,
+// 		name: '00',
+// 	},
+// 	{
+// 		id: 1,
+// 		name: '01',
+// 	},
+// 	{
+// 		id: 2,
+// 		name: '02',
+// 	},
+// 	{
+// 		id: 3,
+// 		name: '03',
+// 	},
+// ];
+
+// function TechBarButton({ techBar }) {
+// 	const { id, name } = techBar || {};
 // 	return (
 // 		<div>
-// 			<p>{id}</p>
-// 			<p>{title}</p>
-// 			<p>{description}</p>
-// 			<p>{date}</p>
+// 			<Link href={`/${id}`}>{name}</Link>
 // 		</div>
 // 	);
 // }
