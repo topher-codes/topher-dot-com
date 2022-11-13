@@ -10,6 +10,7 @@ export const Posts = [
 		title: 'Some Thoughts ❤️',
 		description: 'A post for someone special',
 		date: 'September 01, 2022',
+		url: 'https://thejourney.gtsb.io/love/',
 	},
 	{
 		id: 2,
