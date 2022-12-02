@@ -11,6 +11,7 @@ export const Posts = [
 		description: 'A post for someone special',
 		date: 'September 01, 2022',
 		url: 'https://thejourney.gtsb.io/love/',
+		content: '',
 	},
 	{
 		id: 2,
