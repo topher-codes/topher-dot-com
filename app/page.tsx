@@ -1,6 +1,7 @@
 import Image from 'next/image';
 import Link from 'next/link';
 import { AiFillGithub, AiFillLinkedin, AiOutlineMail } from 'react-icons/ai';
+import React from 'react';
 
 export default function HomePage() {
 	return (

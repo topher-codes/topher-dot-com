@@ -48,31 +48,3 @@ function BlogPost({ note }: any) {
 		</div>
 	);
 }
-
-// const techBar = [
-// 	{
-// 		id: 0,
-// 		name: '00',
-// 	},
-// 	{
-// 		id: 1,
-// 		name: '01',
-// 	},
-// 	{
-// 		id: 2,
-// 		name: '02',
-// 	},
-// 	{
-// 		id: 3,
-// 		name: '03',
-// 	},
-// ];
-
-// function TechBarButton({ techBar }) {
-// 	const { id, name } = techBar || {};
-// 	return (
-// 		<div>
-// 			<Link href={`/${id}`}>{name}</Link>
-// 		</div>
-// 	);
-// }

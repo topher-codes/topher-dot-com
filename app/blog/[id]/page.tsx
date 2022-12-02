@@ -5,6 +5,7 @@ export default function PostsPage({ params }: any) {
 	return (
 		<div>
 			<h1>{posts[params.id].title}</h1>
+			<p>{posts[params.id].description}</p>
 		</div>
 	);
 }
